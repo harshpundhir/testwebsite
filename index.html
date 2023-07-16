@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Food Technologist</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+        .fancy-font {
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+        }
+
+
+        #hero {
+            background: linear-gradient(90deg, #7543ea, #f9bb10);
+            animation: gradientAnimation 5s ease-in-out infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .spacer {
+            margin-bottom: 20px;
+            /* Adjust the desired amount of vertical space */
+        }
+
+        .social-media-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-media-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-media-icon {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        /* Additional styling for modern look */
+        #social-media {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #social-media h2 {
+            font-weight: bold;
+        }
+
+
+
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style-type: none;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .skills-list li {
+            background-color: #acacac;
+            padding: 10px 20px;
+            font-family: 'Poppins', sans-serif;
+            /* Set the fancy font */
+            font-weight: bold;
+            /* Make the font bold */
+            color: white;
+            /* Set the text color to white */
+            border-radius: 20px;
+            margin-bottom: 5px;
+        }
+
+        .skills-heading {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            /* Adjust as needed */
+        }
+
+        .skills-heading img {
+            margin-right: 10px;
+            /* Adjust as needed */
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .skills-column {
+            background-color: #f5f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /*---*/
+        .column-heading {
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: medium;
+            /* center the text */
+            text-align: center;
+        }
+
+
+        .bg-custom {
+            background-color: #ffee71;
+            /* Set your desired background color */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="annu_figma_circle.png" alt="Annu Mathhew Image">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#certifications">Certifications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fancy-font">ANNU MATHEW</h1>
+            <h2 class="h4">Food Technologist</h2>
+        </div>
+    </section>
+
+    <section id="social-media" class="py-5">
+        <div class="container">
+          <h2 class="h3 text-center mb-4">Connect with Me</h2>
+          <div class="social-media-icons text-center">
+            <a href="https://www.linkedin.com/in/annu-mathew-47550a191/" target="_blank">
+              <img src="linkedin-logo.png" alt="LinkedIn" class="social-media-icon">
+            </a>
+
+            <a href="mailto:ampappady@gmail.com" target="_blank">
+                <img src="email-logo.png" alt="LinkedIn" class="social-media-icon">
+              </a>
+
+            <!-- Add more social media icons and links here -->
+          </div>
+        </div>
+      </section>
+      
+
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="h3">Experience</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="cavinkare-logo.png" alt="CavinKare logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Associate Scientist</h3>
+                    </div>
+                    <p class="mb-0">CavinKare | Full-time | India</p>
+                    <p class="mb-0">Dec 2020 - Jun 2022 · 1 yr 7 mos</p>
+                    <div class="spacer"></div>
+                    <h6>Responsibilities and achievements</h6>
+                    <p class="mb-0">• Developed a new product from ideation to launch in 6 months</p>
+                    <p class="mb-0">• Evaluated 12 products on sensory basis</p>
+                </div>
+            </div>
+            <!--adding more-->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="cankor-logo.png" alt="Kancor logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Research Intern</h3>
+                    </div>
+                    <p class="mb-0">Kancor Ingredients Limited | Internship | India</p>
+                    <p class="mb-0">Mar 2020 - Sep 2020 · 7 mos</p>
+                    <div class="spacer"></div>
+                    <h6>Responsibilities and achievements</h6>
+                    <p class="mb-0">• Analysed 6 dairy products</p>
+                    <p class="mb-0">• Developed a product</p>
+                </div>
+            </div>
+            <!--adding more-->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="time-logo.png" alt="time-logo logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Research Intern</h3>
+                    </div>
+                    <p class="mb-0">TIME Academy | Part-time | India</p>
+                    <p class="mb-0">Oct 2017 - Jun 2019 · 1 yr 9 mos</p>
+                    <div class="spacer"></div>
+                    <h6>Responsibilities and achievements</h6>
+                    <p class="mb-0">• Taught chemistry and bilogy to 200+ students</p>
+                    <p class="mb-0">• Aided in content restructuring for practice materials</p>
+                </div>
+            </div>
+            <!--adding more-->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="symega-logo.png" alt="symega-logo logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Research Intern</h3>
+                    </div>
+                    <p class="mb-0">Symega Food Ingredients Ltd. | Internship | India</p>
+                    <p class="mb-0">May 2019 · 1 mo</p>
+                    <div class="spacer"></div>
+                    <h6>Responsibilities and achievements</h6>
+                    <p class="mb-0">• Analysed 1 plant based product</p>
+                </div>
+            </div>
+            <!--adding more-->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="avt-logo.png" alt="avt logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Research Intern</h3>
+                    </div>
+                    <p class="mb-0">AVT Natural Products Limited | Internship | India</p>
+                    <p class="mb-0">May 2018 · 1 mo</p>
+                    <div class="spacer"></div>
+                    <h6>Responsibilities and achievements</h6>
+                    <p class="mb-0">• Analysed 1 dairy product</p>
+                </div>
+            </div>
+            <!-- Add more experience items here -->
+        </div>
+    </section>
+
+    <section id="skills" class="bg-custom py-5">
+        <div class="container">
+            <h2 class="h3 skills-heading">
+                <img src="skill.png" alt="Skill Logo">
+                Skills
+            </h2>
+            <div class="skills-grid">
+                <div class="skills-column">
+                    <h3 class="column-heading">Hard Skills</h3>
+                    <ul class="skills-list">
+                        <li>Sensory Evaluation</li>
+                        <li>Product Development</li>
+                        <!-- Add more hard skills here -->
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <h3 class="column-heading">Tech Skills</h3>
+                    <ul class="skills-list">
+                        <li>Programming Languages</li>
+                        <li>Web Development</li>
+                        <!-- Add more tech skills here -->
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <h3 class="column-heading">Soft Skills</h3>
+                    <ul class="skills-list">
+                        <li>Team Management</li>
+                        <li>Communication</li>
+                        <li>Leadership</li>
+                        <!-- Add more soft skills here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="h3">Education</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="kuleuven-logo.png" alt="KU Leuven logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Master of Food Technology (IUPFOOD)</h3>
+                    </div>
+                    <p class="mb-0">KU Leuven | Sep 2022 - Aug 2024 | GPA: 8.5</p>
+                    <p class="mb-0">• Thesis: Evaluation of fat</p>
+                    <p class="mb-0">• Project: Evaluation of extra fat</p>
+                </div>
+            </div>
+            <!-- Add more education items here -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="niftem-logo.png" alt="Niftem logo" class="me-3" style="max-width: 50px;">
+                        <h3 class="h5 mb-0">Bachelor of Food Technology </h3>
+                    </div>
+                    <p class="mb-0">NIFTEM Thanjavur | Aug 2016 - Jul 2020 | GPA: 8.76</p>
+                    <p class="mb-0">• Thesis: Evaluation of fat</p>
+                    <p class="mb-0">• Project: Evaluation of extra fat</p>
+                </div>
+            </div>
+
+            <!--added up-->
+        </div>
+    </section>
+
+    <section id="certifications" class="bg-custom py-5">
+        <div class="container">
+            <h2 class="h3">Certifications</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="coursera-logo.png" alt="Coursera logo" class="me-3" style="max-width: 50px;">
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/SLRRXEBPLMR4?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate" target="_blank" class="text-decoration-none">The New Nordic Diet - from Gastronomy to Health</a>
+                    </div>
+                    <p class="mb-0">Coursera | Feb 2019</p>
+                </div>
+            </div>
+            <!-- Add more certification items here -->
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="coursera-logo.png" alt="Coursera logo" class="me-3" style="max-width: 50px;">
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/F3NVWG9YZBMU?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate" target="_blank" class="text-decoration-none">Food & Beverage Management</a>
+                    </div>
+                    <p class="mb-0">Coursera | Dec 2018</p>
+                </div>
+            </div>
+            <!---->
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="h3">Contact</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2023 Annu Mathew. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
